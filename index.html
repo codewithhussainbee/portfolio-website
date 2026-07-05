@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Kanala Chinna Hussain Bee - Full Stack Developer & CSE Student at CBIT.">
+    <meta name="keywords" content="Kanala Chinna Hussain Bee, Full Stack Developer, CBIT, Computer Science Student">
+    <meta name="author" content="Kanala Chinna Hussain Bee">
+    <title>Kanala Chinna Hussain Bee | Portfolio</title>
+    
+    <!-- Clear favicon error -->
+    <link rel="icon" href="data:;base64,iVBORw0K==">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS (Animate On Scroll) Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Animated Preloader -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <p>Initializing Cyber Environment...</p>
+        </div>
+    </div>
+
+    <!-- Background Matrix Particles -->
+    <div id="particles-js"></div>
+    
+    <!-- Custom Cursor Glow -->
+    <div class="cursor-glow" id="cursor-glow"></div>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">KCHB<span class="dot">.</span></a>
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content" data-aos="zoom-out" data-aos-duration="1200">
+            <div class="profile-container">
+                <div class="profile-img-wrapper">
+                    <div class="profile-placeholder">
+                        <i class="fa-solid fa-user-astronaut"></i>
+                    </div>
+                </div>
+            </div>
+            <h1 class="hero-name">Kanala Chinna Hussain Bee</h1>
+            <div class="typing-container">
+                <span class="static-txt">I am a </span>
+                <span id="typed-text" class="dynamic-txt"></span>
+            </div>
+            <p class="hero-location"><i class="fa-solid fa-location-dot"></i> Kadapa, Andhra Pradesh, India</p>
+            <div class="hero-socials">
+                <a href="https://github.com/codewithhussainbee" target="_blank" aria-label="GitHub" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kanala-chinna-hussain-bee-559680410/" target="_blank" aria-label="LinkedIn" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:hussainbee738@gmail.com" aria-label="Email" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                <p class="about-text">
+                    I am a highly motivated 3rd-year Computer Science and Engineering student at <strong>Chaitanya Bharathi Institute of Technology</strong>, deeply passionate about Full Stack Development and building innovative modern web applications. Possessing strong foundational roots in software development, I naturally specialize in optimizing UI/UX designs alongside implementing structured frontend architectures and robust continuous learning patterns.
+                </p>
+                <p class="about-text">
+                    With an engineering approach to complex algorithmic problem solving, my goal is to craft exceptionally clean, performant, and real-world oriented codebases tailored explicitly for high-impact placement systems and modern enterprise environments.
+                </p>
+                
+                <div class="counters-container">
+                    <div class="counter-box">
+                        <span class="counter" data-target="2">0</span>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="counter-box">
+                        <span class="counter" data-target="13">0</span>
+                        <p>Technologies Learned</p>
+                    </div>
+                    <div class="counter-box">
+                        <span class="counter" data-target="5">0</span>
+                        <p>GitHub Repositories</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Technical Competencies</h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-card" data-aos="slide-up">
+                    <i class="fa-brands fa-html5 skill-icon html-icon"></i>
+                    <h3>HTML5</h3>
+                    <div class="progress-bar"><div class="progress" data-width="95%"></div></div>
+                </div>
+                <div class="skill-card glass-card" data-aos="slide-up">
+                    <i class="fa-brands fa-css3-alt skill-icon css-icon"></i>
+                    <h3>CSS3</h3>
+                    <div class="progress-bar"><div class="progress" data-width="90%"></div></div>
+                </div>
+                <div class="skill-card glass-card" data-aos="slide-up">
+                    <i class="fa-brands fa-js skill-icon js-icon"></i>
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+                </div>
+                <div class="skill-card glass-card" data-aos="slide-up">
+                    <i class="fa-brands fa-java skill-icon java-icon"></i>
+                    <h3>Java</h3>
+                    <div class="progress-bar"><div class="progress" data-width="80%"></div></div>
+                </div>
+                <div class="skill-card glass-card" data-aos="slide-up">
+                    <i class="fa-brands fa-python skill-icon python-icon"></i>
+                    <h3>Python</h3>
+                    <div class="progress-bar"><div class="progress" data-width="75%"></div></div>
+                </div>
+                <div class="skill-card glass-card" data-aos="slide-up">
+                    <i class="fa-solid fa-code skill-icon c-icon"></i>
+                    <h3>C Programming</h3>
+                    <div class="progress-bar"><div class="progress" data-width="80%"></div></div>
+                </div>
+                <div class="skill-card glass-card" data-aos="slide-up">
+                    <i class="fa-solid fa-terminal skill-icon cpp-icon"></i>
+                    <h3>C++</h3>
+                    <div class="progress-bar"><div class="progress" data-width="70%"></div></div>
+                </div>
+                <div class="skill-card glass-card" data-aos="slide-up">
+                    <i class="fa-solid fa-database skill-icon sql-icon"></i>
+                    <h3>SQL</h3>
+                    <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+                </div>
+                <div class="skill-card glass-card" data-aos="slide-up">
+                    <i class="fa-brands fa-git-alt skill-icon git-icon"></i>
+                    <h3>Git</h3>
+                    <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+                </div>
+                <div class="skill-card glass-card" data-aos="slide-up">
+                    <i class="fa-brands fa-github skill-icon github-icon"></i>
+                    <h3>GitHub</h3>
+                    <div class="progress-bar"><div class="progress" data-width="90%"></div></div>
+                </div>
+                <div class="skill-card glass-card" data-aos="slide-up">
+                    <i class="fa-solid fa-laptop-code skill-icon rwd-icon"></i>
+                    <h3>Responsive Web Design</h3>
+                    <div class="progress-bar"><div class="progress" data-width="95%"></div></div>
+                </div>
+                <div class="skill-card glass-card" data-aos="slide-up">
+                    <i class="fa-solid fa-brain skill-icon ps-icon"></i>
+                    <h3>Problem Solving</h3>
+                    <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+                </div>
+                <div class="skill-card glass-card" data-aos="slide-up">
+                    <i class="fa-solid fa-square-rss skill-icon vscode-icon"></i>
+                    <h3>VS Code</h3>
+                    <div class="progress-bar"><div class="progress" data-width="90%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Academic Pathway</h2>
+            <div class="timeline">
+                <div class="timeline-item left" data-aos="slide-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <span class="timeline-date">Currently Pursuing</span>
+                        <h3>B.Tech – Computer Science and Engineering</h3>
+                        <h4>Chaitanya Bharathi Institute of Technology</h4>
+                        <p>Actively learning advanced software engineering architectures, algorithms, core computational frameworks, and web architectures in the 3rd year program.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Featured Developments</h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-img-container">
+                        <div class="project-img-placeholder">
+                            <i class="fa-solid fa-bus-simple"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Bus Ticketing System</h3>
+                        <p>A responsive Bus Ticketing System developed to enable streamlined route-searching, bus browsing, dynamic interface seat selection maps, and simulated transactional ticket validation checks seamlessly.</p>
+                        <div class="tech-badges">
+                            <span class="badge">HTML5</span>
+                            <span class="badge">CSS3</span>
+                            <span class="badge">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/codewithhussainbee/Bus-Ticketing-System" target="_blank" class="btn btn-secondary"><i class="fa-brands fa-github"></i> Source</a>
+                            <a href="#" onclick="return false;" class="btn btn-primary disabled-demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-img-container">
+                        <div class="project-img-placeholder">
+                            <i class="fa-solid fa-calculator"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Calculator</h3>
+                        <p>A modern calculator web application featuring a mathematical evaluation processing engine, responsive fluid element structures, and clean dynamic user interaction triggers for basic arithmetic operations.</p>
+                        <div class="tech-badges">
+                            <span class="badge">HTML5</span>
+                            <span class="badge">CSS3</span>
+                            <span class="badge">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/codewithhussainbee/Calculator" target="_blank" class="btn btn-secondary"><i class="fa-brands fa-github"></i> Source</a>
+                            <a href="#" onclick="return false;" class="btn btn-primary disabled-demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-wrapper" data-aos="fade-up" data-aos-delay="200">
+                <form id="contact-form" class="contact-form glass-card">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" required placeholder=" ">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>Send Message</span> <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+                
+                <div class="contact-footer-socials">
+                    <a href="https://github.com/codewithhussainbee" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/kanala-chinna-hussain-bee-559680410/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:hussainbee738@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Kanala Chinna Hussain Bee | Designed with ❤️</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to top"><i class="fa-solid fa-angle-up"></i></button>
+
+    <!-- Dependencies Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <!-- Custom JavaScript Engine linked locally -->
+    <script src="./script.js"></script>
+</body>
+</html>
